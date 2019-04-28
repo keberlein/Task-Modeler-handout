@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="The_node_icons_are_too_big" xml:lang="en-us">
+ <title>The node icons are the wrong size</title>
+ <shortdesc>The node icons are either too big or too small. I cannot see the DITA map very
+  well.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <refbody>
+  <section><title>Problem</title>You need to increase or decrease the size of the icons to
+   accommodate the DITA map.</section>
+  <section><title>Solution</title><p>To decrease the node size, press
+    <uicontrol>Ctrl+[</uicontrol>.</p><p>To increase the node size, press
+     <uicontrol>Ctrl+]</uicontrol>.</p></section>
+  <?Pub Caret?>
+ </refbody>
+</reference>

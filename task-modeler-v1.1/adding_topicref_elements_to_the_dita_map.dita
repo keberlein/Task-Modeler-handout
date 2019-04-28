@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Adding__topicref__elements_to_the_DITA_map" xml:lang="en-us">
+   <title>Adding elements to the DITA map</title>
+   <shortdesc>After you create a DITA map, you can use <keyword
+         conref="reuse.dita#reuse/task-modeler-long"/> to add &lt;topicref> elements to the map,
+      define @navtitle and @collection-type attributes, and more.</shortdesc>
+   <prolog>
+      <author>Kristen James Eberlein</author>
+      <copyright>
+         <copyryear year="2008"/>
+         <copyrholder>Eberlein Consulting LLC</copyrholder>
+      </copyright>
+   </prolog>
+   <taskbody>
+      <context>
+         <p>This procedure is designed to help you become familiar with using <keyword
+               conref="reuse.dita#reuse/task-modeler-long"/> to add &lt;topicref> elements to a DITA
+            map. </p>
+         <p>When you have completed this exercise, you will be able to complete the following
+            tasks:</p>
+         <ul>
+            <li>Add &lt;topicref> elements using any of the following methods:<ul>
+                  <li>Menu</li>
+                  <li>Keyboard</li>
+                  <li>Right-click menu</li>
+               </ul></li>
+            <li>Add navtitle attributes</li>
+            <li>Change the node type, both before and after you have created nodes in the model</li>
+            <li>Set collection-type attributes on &lt;topicref> elements</li>
+            <li>Move a node by dragging and dropping</li>
+            <li>Save a DITA map that you have modified</li>
+         </ul>
+         <p>You also will understand some of the terminology used by <keyword
+               conref="reuse.dita#reuse/task-modeler-short"/> and how it maps to DITA
+            terminology.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>To specify that the DITA map is displayed as a hierarchical diagram, click <menucascade>
+                  <uicontrol>View</uicontrol>
+                  <uicontrol>View As</uicontrol>
+                  <uicontrol>Hierarchical Diagram</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step>
+            <cmd>To turn off the relationship visualization, click <menucascade>
+                  <uicontrol>View</uicontrol>
+                  <uicontrol>Hide All Visualization</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step>
+            <cmd>Add a top-level &lt;topicref> element. In the terminology used by Task Modeler,
+               this is a disconnected node.</cmd>
+            <substeps>
+               <substep>
+                  <cmd>To select a &lt;topicref> element with the type of task, press
+                        <uicontrol>Ctrl+T</uicontrol>, click <uicontrol>Task</uicontrol>, and then
+                     click <uicontrol>OK</uicontrol>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>To add the &lt;topicref> element, click <menucascade>
+                        <uicontrol>Node</uicontrol>
+                        <uicontrol>Add disconnected node</uicontrol>
+                     </menucascade>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Type <userinput>Dental hygiene</userinput>, and press Enter.</cmd>
+                  <info>The text that you typed is the @navtitle attribute of the &lt;topicref>
+                     element.</info>
+               </substep>
+            </substeps>
+            <stepresult>A node appears in the <uicontrol>Map Editor</uicontrol> view.<image
+                  href="images/disconnected_node.gif" otherprops="screen_shots" placement="break"
+                  scale="70">
+                  <alt>Dental hygiene node</alt>
+               </image></stepresult>
+         </step>
+         <step>
+            <cmd>Add a child &lt;topicref> element by using the keyboard. In the terminology used by
+                  <keyword conref="reuse.dita#reuse/task-modeler-short"/>, this is a child
+               node.</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Press <uicontrol>Alt+Down arrow</uicontrol>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Type <userinput>Brushing your teeth</userinput>, and press Enter.</cmd>
+                  <info>Since you previously had selected the type of task, a task &lt;topicref>
+                     element is added to the DITA map.</info>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Add a sibling &lt;topicref> element by using the right-click context menu. In the
+               terminology used by <keyword conref="reuse.dita#reuse/task-modeler-short"/>, this is
+               a sibling node.</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Select the "Brushing your teeth" node, right-click and click <uicontrol>Add
+                        Next Sibling</uicontrol>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Type <userinput>Flossing your teeth</userinput>, and press Enter.</cmd>
+               </substep>
+            </substeps>
+            <stepresult>
+               <image href="images/node_2_children.gif" placement="break" scale="65">
+                  <alt>Dental hygiene node with two child nodes</alt>
+               </image>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Change the type of &lt;topicref> element:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>On the menu bar, click the <uicontrol>Choose Node Type</uicontrol>
+                     icon.</cmd>
+               </substep>
+               <substep>
+                  <cmd>In the <wintitle>Choose Node Type</wintitle> window, click
+                        <uicontrol>Concept</uicontrol>, and then click
+                     <uicontrol>OK.</uicontrol></cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Add a sibling &lt;topicref> element by using the keyboard:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Select the "Flossing your teeth" node, and press <uicontrol>Ctrl+Right
+                        arrow</uicontrol>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Type <userinput>Dental products</userinput>, and then press Enter.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Add three children of the "Dental products" &lt;topicref> element:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Select the "Dental products" node, and click <menucascade>
+                        <uicontrol>Node</uicontrol>
+                        <uicontrol>Add Child</uicontrol>
+                     </menucascade>..</cmd>
+               </substep>
+               <substep>
+                  <cmd>Press <uicontrol>Ctrl+Right arrow</uicontrol></cmd>
+               </substep>
+               <substep>
+                  <cmd>Right-click, and then click <uicontrol>Add Next Sibling</uicontrol>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Press <uicontrol>Enter</uicontrol>.</cmd>
+               </substep>
+            </substeps>
+            <stepresult><image href="images/nodes_wo_names.gif" otherprops="screen_shots"
+                  placement="break" scale="65">
+                  <alt>Mode cluster that contains topic references without names</alt>
+               </image>Three &lt;topicref> elements have been added to the DITA map, but none of
+               them have navtitle atttributes. In <keyword
+                  conref="reuse.dita#reuse/task-modeler-short"/> terminology, navtitle attributes
+               are the names of the nodes.</stepresult>
+         </step>
+         <step>
+            <cmd>Add @navtitle attributes to the &lt;topicref> elements:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Click the 3.1 node, type <userinput>Toothbrush</userinput>, and press
+                     Enter.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click the 3.2 node, type <userinput>Toothpaste</userinput>, and press
+                     Enter.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click the 3.3 node, type <userinput>Dental floss</userinput>, and press
+                     Enter.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Add a &lt;topicref> element after the "Dental products" topic:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Click the "Dental products" topic to select it.</cmd>
+                  <stepresult>The node turns yellow and has a black border around it.</stepresult>
+               </substep>
+               <substep>
+                  <cmd>To add a child topic, press <uicontrol>Ctrl+Down arrow</uicontrol>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Type <userinput>Tooth and gum disease</userinput>, and press Enter.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Add three children of the "Tooth and gum disease" &lt;topicref> element. Use
+               whatever method – menu, keyboard, and right-click context menu – that you
+               prefer.</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Add a node with the name "Cavities.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Add a node with the name "Periodontal disease."</cmd>
+               </substep>
+               <substep>
+                  <cmd>Add a node with the name "Stages of tooth decay."</cmd>
+               </substep>
+            </substeps>
+            <stepresult>Since the node type was set to Concept, you added three &lt;topicref
+               type="concept> elements. However, you really wanted the "Stages of tooth decay" topic
+               to be a reference topic.</stepresult>
+         </step>
+         <step>
+            <cmd>Change the type of node 4 ("Stages of tooth decay") to reference:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Select the node that you want to modify.</cmd>
+               </substep>
+               <substep>
+                  <cmd>If it is not open, open the Properties view by clicking <menucascade>
+                        <uicontrol>Window</uicontrol>
+                        <uicontrol>Show View</uicontrol>
+                        <uicontrol>Properties</uicontrol>
+                     </menucascade>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>In the <wintitle>Properties</wintitle> window, scroll upwards and locate the
+                        <uicontrol>Node type</uicontrol> property.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click in the <uicontrol>Value</uicontrol> field, and select
+                        <uicontrol>Reference</uicontrol>.</cmd>
+                  <stepresult>
+                     <image href="images/change_node_type.gif" placement="break" scale="65">
+                        <alt>Screen capture showing process of changing a node type</alt>
+                     </image>
+                  </stepresult>
+               </substep>
+               <substep>
+                  <cmd>Click in the <uicontrol>Map Editor</uicontrol> view.</cmd>
+                  <stepresult>The node type is changed to Reference.<image
+                        href="images/node_type_changed.gif" placement="break">
+                        <alt>Updated node cluster</alt>
+                     </image></stepresult>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Set a collection-type attribute for the "Dental products" &lt;topicref>
+               element:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Click <uicontrol>Unspecified</uicontrol>.</cmd>
+                  <info>This label is located to the left of the "Dental products" node.</info>
+                  <stepresult>The <wintitle>Edit Collection type</wintitle> window
+                     opens.</stepresult>
+               </substep>
+               <substep>
+                  <cmd>Select <uicontrol>Family</uicontrol>, and click
+                     <uicontrol>OK</uicontrol>.</cmd>
+               </substep>
+            </substeps>
+            <stepresult>A label for the collection-type attribute is displayed in the <uicontrol>Map
+                  Editor</uicontrol> view. <p>Next, you decide that you want to add a container
+                  topic that will hold the toothbrushing and flossing tasks, and that you will set a
+                  collection-type attribute of sequence on the container topic. (This will help
+                  readers understand that toothbrushing and flossing are tasks that should be
+                  performed in a certain order.</p></stepresult>
+         </step>
+         <step>
+            <cmd>Add a &lt;topicref> element as a parent of the "Brushing your teeth" topic:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Select the type as <uicontrol>Task</uicontrol>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Select the "Brushing your teeth" topic, and press <uicontrol>Ctrl+Up
+                        arrow.</uicontrol></cmd>
+                  <stepresult>A parent topic is added.</stepresult>
+               </substep>
+               <substep>
+                  <cmd>Type <userinput>Caring for your teeth</userinput>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Move the "Flossing your teeth" topic:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Select the topic and drag it down until it touches the right side of the
+                     "Brushing your teeth" node.</cmd>
+               </substep>
+               <substep>
+                  <cmd>When a <uicontrol>Move task 2 as next sibling of 1.1</uicontrol> label is
+                     displayed, release the node.</cmd>
+               </substep>
+            </substeps>
+            <stepresult>The topic is displayed in a different place in model, and Task Modeler has
+               reassigned the node IDs.</stepresult>
+         </step>
+         <step>
+            <cmd>Set the collection-type attribute to <uicontrol>Sequence.</uicontrol></cmd>
+            <stepresult>The model now looks like this:<image href="images/scenario.gif"
+                  placement="break">
+                  <alt>The completed dental hygience cluster</alt>
+               </image></stepresult>
+         </step>
+         <step>
+            <cmd>Save the DITA map by performing one of the following actions:</cmd>
+            <info>
+               <ul>
+                  <li>Click <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol>Save</uicontrol>
+                     </menucascade></li>
+                  <li>Press <uicontrol>Ctrl+S</uicontrol>.</li>
+               </ul>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="A_view_is_closed" xml:lang="en-us">
+<title>A view is closed</title>
+<shortdesc>A view that I need is not displayed.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+<refbody>
+<section><title>Problem</title>You closed the view, perhaps in order to focus
+on the DITA map.</section>
+<section><title>Solution</title>To open a view, click <menucascade><uicontrol>Window</uicontrol>
+<uicontrol>Show View</uicontrol><uicontrol><varname>view_name</varname></uicontrol>
+</menucascade><p>where <varname>view_name</varname> is one of the following
+items:<ul>
+<li>Bird's Eye View</li>
+<li>DITA Topic File Manager</li>
+<li>Method Exponent</li>
+<li>Navigator</li>
+<li>Outline</li>
+<li>Properties</li>
+<li>Properties Table</li>
+<li>Property Visualization</li>
+<li>Relationship Rows Browser</li>
+<li>Relationship Table Editor</li>
+</ul></p></section>
+</refbody>
+</reference>
+

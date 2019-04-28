@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="The_DITA_tools_are_missing" xml:lang="en-us">
+ <?Pub Caret?>
+ <title>The DITA tools are missing</title>
+ <shortdesc>When I open <keyword conref="reuse.dita#reuse/task-modeler-long"/>, I do not see the
+    views that I need to work with DITA.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <refbody>
+  <section><title>Problem</title>You have not opened the DITA modeling perspective.</section>
+  <section><title>Solution</title>To open the DITA modeling perspective:<ol>
+    <li>Click <menucascade>
+      <uicontrol>Window</uicontrol>
+      <uicontrol>Open Perspective</uicontrol>
+      <uicontrol>Other</uicontrol>
+     </menucascade>.</li>
+    <li>Click <uicontrol>DITA Modeling</uicontrol>, and then click <uicontrol>OK</uicontrol>.</li>
+   </ol></section>
+ </refbody>
+</reference>

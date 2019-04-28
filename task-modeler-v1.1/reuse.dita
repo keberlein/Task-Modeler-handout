@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reuse">
+    <title>Reuse</title>
+    <shortdesc>Contains content reused in the IBM Task Modeler handout.</shortdesc>
+    <body>
+        <lines>
+<keyword id="task-modeler-long"><tm tmclass="ibm" tmowner="IBM Corporation" tmtype="reg" trademark="IBM">IBM</tm> Task Modeler</keyword>
+<keyword id="task-modeler-short">Task Modeler</keyword></lines>
+    </body>
+</topic>
