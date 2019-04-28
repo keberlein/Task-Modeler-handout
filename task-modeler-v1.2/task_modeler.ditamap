@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en-US">
+ <title><keyword keyref="task-modeler-long"/> handout</title>
+ <topicmeta>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </topicmeta>
+ <!--KJE: Key definitions-->
+ <mapref href="key-definitions.ditamap" format="ditamap" processing-role="resource-only"/>
+ <topicref format="dita" href="task_modeler_handout.dita" navtitle="Task Modeler handout">
+  <topicref href="installing.dita" navtitle="Installing and setting up IBM Task Modeler">
+   <topicref href="downloading_ibm_task_modeler.dita" navtitle="Downloading IBM Task Modeler"/>
+   <topicref href="installing_ibm_task_modeler.dita" navtitle="Installing IBM Task Modeler"/>
+   <topicref href="setting_up_the_task_modeler_environment.dita"
+    navtitle="setting up the Task Modeler environment"/>
+   <topicref href="uninstalling_ibm_task_modeler.dita" navtitle="Uninstalling IBM Task Modeler"/>
+  </topicref>
+  <topicref collection-type="sequence" href="creating_a_sample_information_set.dita"
+   navtitle="Developing a sample information set">
+   <topicref href="creating_a_project.dita" navtitle="Creating a project"/>
+   <topicref href="creating_a_dita_map.dita" navtitle="Creating a DITA map"/>
+   <topicref href="adding_topicref_elements_to_the_dita_map.dita"
+    navtitle="Adding elements to the DITA map"/>
+   <topicref href="generating_stub_files.dita" navtitle="Generating stub files"/>
+   <?Pub Caret?>
+   <topicref href="creating_relationships.dita" navtitle="Creating relationships"/>
+  </topicref>
+  <topicref href="troubleshooting.dita" navtitle="Troubleshooting">
+   <topicref href="the_node_icons_are_too_big.dita" navtitle="The node icons are too big"/>
+   <topicref href="the_dita_tools_are_missing.dita" navtitle="The DITA tools are missing"/>
+   <topicref href="i_want_to_change_the_view.dita" navtitle="I want to change the view"/>
+   <topicref href="a_view_is_closed.dita" navtitle="A view is closed"/>
+   <topicref href="the_visualization_is_distracting.dita"
+    navtitle="The visualization is distracting"/>
+  </topicref>
+  <topicref href="feedback.dita" navtitle="Feedback"/>
+ </topicref>
+</map>
+

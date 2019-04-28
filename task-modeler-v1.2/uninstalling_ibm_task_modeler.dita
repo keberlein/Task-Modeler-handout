@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Uninstalling_IBM_Task_Modeler" xml:lang="en-us">
+ <?Pub Caret?>
+ <title>Uninstalling </title>
+ <shortdesc>You quickly can uninstall <keyword keyref="task-modeler-long"/>. This process does not
+  require that you restart the operating system.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <taskbody>
+  <steps>
+   <step>
+    <cmd>Click <menucascade>
+      <uicontrol>Start</uicontrol>
+      <uicontrol>All Programs</uicontrol>
+      <uicontrol><keyword keyref="task-modeler-long"/> 5</uicontrol>
+      <uicontrol>Uninstall</uicontrol>
+     </menucascade>.</cmd>
+   </step>
+   <step>
+    <cmd>On the <wintitle>Welcome</wintitle> page, click <uicontrol>Next</uicontrol>.</cmd>
+   </step>
+   <step>
+    <cmd>On the Summary page, click <uicontrol>Finish</uicontrol>.</cmd>
+   </step>
+  </steps>
+ </taskbody>
+</task>

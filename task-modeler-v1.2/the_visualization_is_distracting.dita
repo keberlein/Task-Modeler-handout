@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="The_visualization_is_distracting" xml:lang="en-us">
+ <title>The visualization is distracting</title>
+ <shortdesc>There are squiggly lines all over the DITA map. It is
+  <?Pub Caret?>distracting.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <refbody>
+  <section><title>Problem</title>Too many visualization properties are enabled.</section>
+  <section><title>Solution</title>You can either turn off visualization or specify only the
+   visualization properties that you want to use.<p>To turn off the visualization, click <menucascade>
+     <uicontrol>View</uicontrol>
+     <uicontrol>Hide All Visualization</uicontrol>
+    </menucascade>.</p><p>To specify visualization, use the <uicontrol>Property
+     Visualization</uicontrol> view.</p></section>
+ </refbody>
+</reference>

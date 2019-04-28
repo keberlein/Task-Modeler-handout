@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="Task_Modeler_handout" xml:lang="en-us">
+<title><keyword keyref="task-modeler-long"/> handout</title>
+<shortdesc>This handout was created for a workshop, "Using <keyword keyref="task-modeler-long"/> to
+  create a DITA-based information set," offered at the Content Management Strategies/DITA North
+  America conference in April 2008. It is based on <keyword keyref="task-modeler-short"/>
+  5.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+</topic>
+

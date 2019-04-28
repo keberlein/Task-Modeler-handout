@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Downloading_IBM_Task_Modeler" xml:lang="en-us">
+ <?Pub Caret?>
+ <title>Downloading <keyword keyref="task-modeler-long"/></title>
+ <shortdesc>You can download <keyword keyref="task-modeler-long"/> from the Alphaworks Web site. The
+  application is available without charge and for evaluation purposes only.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <taskbody>
+  <steps>
+   <step>
+    <cmd>Go to <xref href="http://www.alphaworks.ibm.com/betasite/tech/taskmodeler" scope="external"
+      format="html">http://www.alphaworks.ibm.com/betasite/tech/taskmodeler</xref>.</cmd>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Try it now</uicontrol>.</cmd>
+   </step>
+   <step>
+    <cmd>Scroll to the bottom of the page and click <uicontrol>Download now</uicontrol>.</cmd>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Proceed without an IBM ID</uicontrol>.</cmd>
+   </step>
+   <step>
+    <cmd>In the <uicontrol>Business Contact Information</uicontrol> area, specify personal
+     information:</cmd>
+    <substeps>
+     <substep>
+      <cmd>In the <uicontrol>First name</uicontrol> field, type your given name.</cmd>
+     </substep>
+     <substep>
+      <cmd>In the <uicontrol>Last name</uicontrol> field, type your family name.</cmd>
+     </substep>
+     <substep>
+      <cmd>In the <uicontrol>Country or Region</uicontrol> field, select the country or region in
+       which you live.</cmd>
+     </substep>
+    </substeps>
+   </step>
+   <step>
+    <cmd>In the <uicontrol>License</uicontrol> area, click <uicontrol>View
+     license</uicontrol>.</cmd>
+   </step>
+   <step>
+    <cmd>After reading the license, close the window.</cmd>
+   </step>
+   <step>
+    <cmd>Select the <uicontrol>I agree</uicontrol> check box, and then click <uicontrol>I
+      confirm.</uicontrol></cmd>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Download now</uicontrol>.</cmd>
+   </step>
+  </steps>
+ </taskbody>
+</task>

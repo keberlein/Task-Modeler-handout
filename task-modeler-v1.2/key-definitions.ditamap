@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Key definitions</title>
+    <keydef keys="task-modeler-long">
+        <topicmeta>
+            <keywords>
+                <keyword><tm tmclass="ibm" tmowner="IBM Corporation" tmtype="reg" trademark="IBM"
+                        >IBM</tm> Task Modeler</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="task-modeler-short">
+        <topicmeta>
+            <keywords>
+                <keyword>Task Modeler</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+</map>

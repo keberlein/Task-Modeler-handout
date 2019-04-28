@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="Installing_IBM_Task_Modeler" xml:lang="en-us"><?Pub Caret?>
+<title>Installing <keyword keyref="task-modeler-long"/></title>
+<shortdesc>You can install <keyword keyref="task-modeler-long"/> on a system that runs <tm
+   tmclass="special" tmowner="Microsoft Corporation" tmtype="reg" trademark="Microsoft"
+   >Microsoft</tm>
+  <tm tmclass="special" tmowner="Microsoft Corporation" tmtype="reg" trademark="Windows"
+   >Windows</tm>. You either can install <keyword keyref="task-modeler-short"/> as a stand-alone
+  installation or as a plug-in to an existing Eclipse 3.2 installation.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+<taskbody>
+<steps>
+<step>
+    <cmd>Double-click the <filepath>Setup_TaskModeler5.exe</filepath> file.</cmd>
+    <stepresult>The Open File–Security Warning window opens.</stepresult>
+   </step>
+<step><cmd>Click <uicontrol>Run</uicontrol>.</cmd>
+</step>
+<step><cmd>On the <wintitle>Welcome</wintitle> page, click <uicontrol>Next</uicontrol>.</cmd>
+</step>
+<step><cmd>On the <wintitle>License Agreement</wintitle> page, click <uicontrol>I accept the terms of the
+      license agreement</uicontrol>, and then click <uicontrol>Next</uicontrol>.</cmd>
+</step>
+<step><cmd>On the <wintitle>Setup Type Information</wintitle> page, click
+     <uicontrol>Next.</uicontrol></cmd>
+</step>
+<step><cmd>On the <wintitle>Select Setup Type</wintitle> page, select the installation type, and then
+     click <uicontrol>Next</uicontrol>.</cmd>
+</step>
+<step><cmd>On the <wintitle>Summary</wintitle> page, click <uicontrol>Next</uicontrol> .</cmd><info>By default, <keyword keyref="task-modeler-short"/> is installed to <filepath>C:\Program
+      Files\IBM\TaskModeler 5</filepath>.</info>
+</step>
+<step><cmd>On the <wintitle>Successful Installation</wintitle> page, click
+     <uicontrol>Finish</uicontrol>.</cmd></step>
+</steps>
+</taskbody>
+</task>
+

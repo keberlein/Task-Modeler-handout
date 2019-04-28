@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<?Pub Sty _display FontColor="red"?>
+<?Pub Inc?>
+<task id="Creating_a_sample_information_set" xml:lang="en-us"><?Pub Caret?>
+<title>Developing a sample information set</title>
+<shortdesc>This section contains a brief tutorial designed to help you learn how to use <keyword
+   keyref="task-modeler-long"/> to create a small information set.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2008"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+<taskbody>
+<context><p>You are designing a small, DITA-based information set about dental health. Your client is the
+    Human Resources department of Acme Corporation, a company that wants to reduce costs by having
+    their employees take better care of their teeth. </p>
+   <p>Here is what the DITA map will look like in <keyword keyref="task-modeler-short"/> after you
+    have created it:</p>
+   <p>
+    <image href="images/scenario.gif" placement="break">
+     <alt>View of the dental hygiene sample after creation</alt>
+    </image>
+   </p></context>
+</taskbody>
+</task>
