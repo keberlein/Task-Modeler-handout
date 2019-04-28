@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Creating_a_project" xml:lang="en-us">
+ <title>Creating a project</title>
+ <shortdesc>Projects contains related files and task models. All files that you manipulate in an
+  Eclipse environment must exist within a project.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2011"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <taskbody>
+  <steps>
+   <step id="click_new">
+    <cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>New</uicontrol>
+      <uicontrol>Project</uicontrol></menucascade>.</cmd>
+   </step>
+   <step>
+    <cmd>In the <wintitle>New Project</wintitle> window, expand <uicontrol>General</uicontrol> and
+     click <uicontrol>Project</uicontrol>.</cmd>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+   </step>
+   <step>
+    <cmd>In the <uicontrol>Project name</uicontrol> field, type a name for the project, for example,
+       <userinput><keyword keyref="task-modeler-short"/> tutorial</userinput>.</cmd>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Finish</uicontrol>.</cmd>
+   </step>
+  </steps>
+  <result>The project now is displayed in the <uicontrol>Navigator</uicontrol>
+   view.</result>
+ </taskbody>
+</task>
+

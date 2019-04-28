@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="Feedback" xml:lang="en-us">
+ <title>Feedback</title>
+ <shortdesc>Please send me feedback about this handout. Is it helpful? Is there information that you
+  think should be added?</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2011"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <refbody>
+  <section><title>Contact information</title><image href="images/kje.jpg" placement="break">
+    <alt>Photograph of Kristen James Eberlein, taken by Bobb Head in 2007</alt>
+   </image><lines>Kristen James Eberlein
+kris@eberleinconsulting.com
+(919) 622-1501</lines></section>
+  <section><title>DITA source files</title>If you want the DITA source files for this handout, send
+   me e-mail.</section>
+ </refbody>
+</reference>

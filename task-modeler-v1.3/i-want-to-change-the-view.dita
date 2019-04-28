@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="i-want-to-change-the-view">
+    <title>I want to change the view</title>
+    <shortdesc>Instead of seeing the nodes displayed in a hierarchical diagram, a radial or indented
+        diagram is displayed.</shortdesc>
+    <prolog>
+        <author>Kristen James Eberlein</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>Eberlein Consulting LLC</copyrholder>
+        </copyright>
+    </prolog>
+    <troublebody>
+        <troubleSolution>
+            <cause>
+                <p>By default, when you install <keyword keyref="task-modeler-long"/>, the indented
+                    diagram view is selected. You need to select the hierarchical diagram view.</p>
+            </cause>
+            <remedy>
+                <title>Remedy</title>
+                <steps>
+                    <step>
+                        <cmd>To ensure that the DITA map is displayed as a hierarchical diagram,
+                            click <menucascade>
+                                <uicontrol>View</uicontrol>
+                                <uicontrol>View As</uicontrol>
+                                <uicontrol>Hierarchical Diagram.</uicontrol>
+                            </menucascade></cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+    </troublebody>
+</troubleshooting>

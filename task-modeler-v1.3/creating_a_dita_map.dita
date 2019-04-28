@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Creating_a_DITA_map" xml:lang="en-us"><?Pub Caret?>
+<title>Creating a DITA map</title>
+<shortdesc>You rapidly can create a DITA map using <keyword keyref="task-modeler-long"
+        />.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2011"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+<taskbody>
+<steps>
+<step><cmd>If your project is not open, open it.</cmd></step>
+<step><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>New</uicontrol>
+<uicontrol>DITA map</uicontrol></menucascade>.</cmd></step>
+<step><cmd>In the <uicontrol>File name</uicontrol> field, type a name for the DITA map, for example,
+      <userinput>dental_tips.ditamap</userinput>, and then click <uicontrol>Next</uicontrol>.</cmd>
+</step>
+<step><cmd>Click <uicontrol>Next</uicontrol>.</cmd></step>
+<step><cmd>Add some attributes and metadata:</cmd>
+<substeps>
+<substep><cmd>In the <uicontrol>Author</uicontrol> field, type your name.</cmd>
+</substep>
+<substep><cmd>In the <uicontrol>XML Language</uicontrol> field, select the
+language.</cmd></substep>
+</substeps>
+</step>
+<step><cmd>Click <uicontrol>Finish</uicontrol>.</cmd></step>
+</steps>
+<result>The DITA map now is displayed in the <uicontrol>Navigator</uicontrol> and
+    <uicontrol>Outline</uicontrol> views, and the DITA map is displayed in the <uicontrol>Map
+    Edito</uicontrol>r.</result>
+</taskbody>
+</task>
+

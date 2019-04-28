@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="troubleshooting" xml:lang="en-us"><?Pub Caret?>
+<title>Troubleshooting</title>
+<shortdesc>This section contains information about resolving problems that users new to <keyword
+   keyref="task-modeler-long"/> might encounter.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2011"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+</task>
+

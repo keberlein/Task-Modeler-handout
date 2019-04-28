@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="the-dita-tools-are-missing">
+    <title>The DITA tools are missing</title>
+    <shortdesc>When I open <keyword keyref="task-modeler-long"/>, I do not see the views that I need
+        to work with DITA.</shortdesc>
+    <prolog>
+        <author>Kristen James Eberlein</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>Eberlein Consulting LLC</copyrholder>
+        </copyright>
+    </prolog>
+    <troublebody>
+        <troubleSolution>
+            <cause>
+                <title>Cause</title>
+                <p>You have not opened the DITA modeling perspective.</p>
+            </cause>
+            <remedy>
+                <title>Remedy</title>
+                <steps>
+                    <step>
+                        <cmd>Click <menucascade>
+                                <uicontrol>Window</uicontrol>
+                                <uicontrol>Open Perspective</uicontrol>
+                                <uicontrol>Other</uicontrol>
+                            </menucascade>.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Click <uicontrol>DITA Modeling</uicontrol>, and then click
+                                <uicontrol>OK</uicontrol>.</cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+    </troublebody>
+</troubleshooting>

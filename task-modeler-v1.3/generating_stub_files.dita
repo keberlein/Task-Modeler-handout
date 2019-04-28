@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<?Pub Inc?>
+<task id="Generating_stub_files" xml:lang="en-us">
+ <title>Generating stub files</title>
+ <shortdesc>You can use <keyword keyref="task-modeler-long"/> to generate stub files. Stub files
+    are DITA files that contain only a title.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2011"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <taskbody>
+  <prereq>
+   <p>Before you generate stub files, you must have completed the following tasks:</p>
+   <ul>
+    <li>Created a DITA map</li>
+    <li>Added <xmlelement>topicref</xmlelement> elements to your DITA map</li>
+   </ul>
+  </prereq>
+  <steps>
+   <step>
+    <cmd>Open your DITA map.</cmd>
+   </step>
+   <step>
+    <cmd>If the <uicontrol>DITA Topic File Manager</uicontrol> view is not open, open it. Click <menucascade>
+      <uicontrol>Window</uicontrol>
+      <uicontrol>Show View</uicontrol>
+      <uicontrol>DITA Topic File Manager</uicontrol>
+     </menucascade>.</cmd>
+   </step>
+   <step>
+    <cmd>In the <uicontrol>DITA Topic File Manager</uicontrol> view, click <image
+      href="images/generate_stub_files_icon.gif" placement="inline" scale="65">
+      <alt>Generate Stub Files icon</alt>
+     </image>.</cmd>
+    <stepresult>The <wintitle>Select Stub Files To Generate</wintitle> window opens.<image
+      href="images/generate_stub_files_window_1.gif" placement="break">
+      <alt/>
+     </image></stepresult>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+    <stepresult>The <wintitle>Generate Stub Files</wintitle> window opens.<image
+      href="images/generate_stub_files_window_2.gif" placement="break">
+      <alt/>
+     </image></stepresult>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+    <stepresult>Another <wintitle>Generate Stub Files</wintitle> window opens.<image
+      href="images/generate_stub_files_window_3.gif" placement="break">
+      <alt/>
+     </image></stepresult>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+    <stepresult>The <wintitle>Summary</wintitle> window opens.<image
+      href="images/generate_stub_files_window_4.gif" placement="break">
+      <alt/>
+     </image></stepresult>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Finish</uicontrol>.</cmd>
+   </step>
+  </steps>
+ </taskbody>
+</task>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Setting_up_the_Task_Modeler_environment" xml:lang="en-us">
+  <?Pub Caret?>
+  <title>Setting up the <keyword keyref="task-modeler-long"/> environment</title>
+  <shortdesc>Before you can use <keyword keyref="task-modeler-long"/> to work with DITA files, you
+    need to open a DITA modeling perspective.</shortdesc>
+  <prolog>
+    <author>Kristen James Eberlein</author>
+    <copyright>
+      <copyryear year="2011"/>
+      <copyrholder>Eberlein Consulting LLC</copyrholder>
+    </copyright>
+  </prolog>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Click <menucascade>
+            <uicontrol>Start</uicontrol>
+            <uicontrol>All Programs</uicontrol>
+            <uicontrol><keyword keyref="task-modeler-long"/> 5</uicontrol>
+            <uicontrol><keyword keyref="task-modeler-short"/></uicontrol>
+          </menucascade>.</cmd>
+        <stepresult><keyword keyref="task-modeler-short"/> starts, and the following window
+            opens:<image href="images/new_tm_installation.gif" otherprops="screen_shots"
+            placement="break">
+            <alt>Eclipse window</alt>
+          </image></stepresult>
+      </step>
+      <step>
+        <cmd>Click <menucascade>
+            <uicontrol>Window</uicontrol>
+            <uicontrol>Open Perspective</uicontrol>
+            <uicontrol>Other.</uicontrol>
+          </menucascade></cmd>
+      </step>
+      <step>
+        <cmd>On the <wintitle> Open Perspective</wintitle> window, click <uicontrol>DITA
+            Modeling</uicontrol>, and then click <uicontrol>OK</uicontrol>.</cmd>
+        <stepresult>The <keyword keyref="task-modeler-short"/> window looks like the following
+          screen capture:<image href="images/new_tm_installation_dita_modeling_perspective.gif"
+            otherprops="screen_shots" placement="break">
+            <alt>View of <keyword keyref="task-modeler-short"/> when the application is first
+              opened</alt>
+          </image></stepresult>
+      </step>
+      <step>
+        <cmd>Close the Welcome perspective.</cmd>
+      </step>
+      <step>
+        <cmd>Click <menucascade>
+            <uicontrol>Window</uicontrol>
+            <uicontrol>Show View</uicontrol>
+            <uicontrol>Properties</uicontrol>
+          </menucascade>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

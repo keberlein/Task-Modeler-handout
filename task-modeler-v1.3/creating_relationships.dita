@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Creating_relationships" xml:lang="en-us">
+ <title>Creating relationships</title>
+ <shortdesc>If your DITA map contains <xmlatt> href</xmlatt> attributes for the
+      <xmlelement>topicref</xmlelement> elements, you can use <keyword keyref="task-modeler-long"/>
+    to create relationship tables that define relationships between the topics that are referenced
+    in the DITA map.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2011"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+ <taskbody>
+  <prereq>Before you create a relationship table, you must have completed the following tasks:<ul>
+    <li>Created a DITA map</li>
+    <li>Added <xmlelement>topicref</xmlelement> elements to your DITA map</li>
+    <li>Generated stub files</li>
+   </ul></prereq>
+  <steps>
+   <step>
+    <cmd>Open your DITA map.</cmd>
+   </step>
+   <step>
+    <cmd>If the DITA Topic File Manager view is not open, open it. Click <menucascade>
+      <uicontrol>Window </uicontrol>
+      <uicontrol>Show View</uicontrol>
+      <uicontrol>Relationship Table Editor</uicontrol>
+     </menucascade>.</cmd>
+   </step>
+   <step>
+    <cmd>In the <wintitle>Relationship Table Editor</wintitle> window, click <image
+      href="images/new_relationship_table_icon.gif" placement="inline">
+      <alt>New Relationship Table icon</alt>
+     </image>.</cmd>
+    <stepresult>The <wintitle>New Relationship Table</wintitle> window opens.<image
+      href="images/new_relationship_table_window.gif" otherprops="screen_shots" placement="break">
+      <alt/>
+     </image></stepresult>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+    <stepresult>Another <wintitle>New Relationship Table</wintitle> window opens.<image
+      href="images/new_relationship_table_window_2.gif" otherprops="screen_shots" placement="break">
+      <alt/>
+     </image></stepresult>
+   </step>
+   <step>
+    <cmd>Click <uicontrol>Finish.</uicontrol></cmd>
+    <stepresult>The new relationship table is displayed in the <wintitle>Relationship Table
+      Editor</wintitle> window.<image href="images/empty_reltable.gif" otherprops="screen_shots"
+      placement="break">
+      <alt/>
+     </image></stepresult>
+   </step>
+   <step>
+    <cmd>Create a row in the relationship table for the "Brushing your teeth" topic:</cmd>
+    <substeps>
+     <substep>
+      <cmd>In the <wintitle>Map Editor</wintitle> view, select the "Brushing your teeth" topic, and
+       drag it to the Tasks cell of row 1.</cmd>
+     </substep>
+     <substep>
+      <cmd>Select the "Toothbrush" topic and drag it to the Concepts cell of row 1.</cmd>
+     </substep>
+     <substep>
+      <cmd>Select the "Toothpaste" topic and drag it to Concepts cell of row 1. You can place it
+       either before or after the "Toothbrush" topic.</cmd>
+     </substep>
+    </substeps>
+   </step>
+   <step>
+    <cmd>Create a row in the relationship table for the "Flossing your teeth" topic:</cmd>
+    <substeps>
+     <substep>
+      <cmd>In the <wintitle>Map Editor</wintitle> view, select the "Flossing your teeth" topic, and
+       drag it to the Tasks cell of row 2.</cmd>
+     </substep>
+     <substep>
+      <cmd>Select the "Dental floss" topic and drag it to the Concepts cell of row 2.</cmd>
+     </substep>
+    </substeps>
+   </step>
+   <step>
+    <cmd>Create a row in the relationship table that defines a relationship between the "Cavities"
+     topic and the "Stages of tooth decay" topic:</cmd>
+    <substeps>
+     <substep>
+      <cmd>In the <wintitle>Map Editor</wintitle> view, select the "Cavities" topic, and drag it to
+       the Concepts cell of row 3.</cmd>
+     </substep>
+     <substep>
+      <cmd>Select the "Stages of tooth decay" topic and drag it to the Reference cell of row
+       3.</cmd>
+     </substep>
+    </substeps>
+    <stepresult>The relationship table now has topics in three of its rows.<image
+      href="images/reltable_w_contents.gif" otherprops="screen_shots" placement="break">
+      <alt/>
+     </image></stepresult>
+   </step>
+   <step>
+    <cmd>Delete the empty rows:</cmd>
+    <substeps>
+     <substep>
+      <cmd>Select row 4, and click <image href="images/delete_row_icon.gif" placement="inline">
+        <alt/>
+       </image>.</cmd>
+     </substep>
+     <substep>
+      <cmd>Select row 5, right-click and then click <uicontrol>Delete Row</uicontrol>.</cmd>
+     </substep>
+    </substeps>
+   </step>
+   <step>
+    <cmd>Save the modified DITA map.</cmd>
+   </step>
+  </steps>
+ </taskbody>
+</task>

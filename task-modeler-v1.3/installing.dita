@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Installing" xml:lang="en-us"><?Pub Caret?>
+<title>Installing and setting up <keyword keyref="task-modeler-long"/></title>
+<shortdesc>This section contains information about downloading, installing, and setting up <keyword
+   keyref="task-modeler-long"/> to work with DITA maps and files.</shortdesc>
+ <prolog>
+  <author>Kristen James Eberlein</author>
+  <copyright>
+   <copyryear year="2011"/>
+   <copyrholder>Eberlein Consulting LLC</copyrholder>
+  </copyright>
+ </prolog>
+</task>
+
